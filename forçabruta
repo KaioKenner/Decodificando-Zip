@@ -1,0 +1,6 @@
+for x in range(0, 10):
+    for i in range(0, 10):
+        for j in range(0, 10):
+            for k in range(0, 10):
+                combinacoes = str(x) + '-' + str(i) + '-' + str(j) + '-' + str(k)
+                print(combinacoes)
